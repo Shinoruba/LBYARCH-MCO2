@@ -1,7 +1,7 @@
 # LBYARCH MCO2
 # Pokémon Effectiveness Calculator
 ### Created by:
-- Homsi, Yazan
+- Homssi, Yazan
 - Ramos, Aebrahm
 
 ## Overview
