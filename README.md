@@ -1,18 +1,18 @@
 # LBYARCH MCO2
-# Pokémon Effectiveness Calculator
+# Pokemon Effectiveness Calculator
 ### Created by:
 - Homsi, Yazan
 - Ramos, Aebrahm
 
 ## Overview
 
-The Pokémon Effectiveness Calculator is a program designed to compute the effectiveness of Pokémon attacks based on their types. This calculator evaluates how well an attacker's Pokémon types fare against the defender's Pokémon types by using a predefined effectiveness table. The program is implemented in assembly language, demonstrating a low-level approach to solving this problem.
+The Pokemon Effectiveness Calculator is a program designed to compute the effectiveness of Pokemon attacks based on their types. This calculator evaluates how well an attacker's Pokemon types fare against the defender's Pokemon types by using a predefined effectiveness table. The program is implemented in assembly language, demonstrating a low-level approach to solving this problem.
 
 ## Features
 
 - **Type Effectiveness Calculation**: Computes the effectiveness of attacks based on the attacker's and defender's types.
 - **Debugging Output**: Provides detailed debug prints for intermediate values, including individual and combined effectiveness metrics.
-- **Handling Multiple Types**: Supports calculations for Pokémon with up to two types, adjusting effectiveness based on both types.
+- **Handling Multiple Types**: Supports calculations for Pokemon with up to two types, adjusting effectiveness based on both types.
 
 ## How It Works
 
@@ -28,12 +28,12 @@ The Pokémon Effectiveness Calculator is a program designed to compute the effec
    - Outputs intermediate effectiveness values and final results to aid in debugging and verification.
 
 3. **Handling Type Combinations**:
-   - If both Pokémon have two types, the program averages the effectiveness values for both types to provide a combined effectiveness score.
+   - If both Pokemon have two types, the program averages the effectiveness values for both types to provide a combined effectiveness score.
    - If only one type is present, it returns the effectiveness based on that single type.
 
 4. **Final Effectiveness Calculation**:
    - Computes the final effectiveness value based on the presence of type advantages and averages if necessary.
-   - Outputs the final effectiveness value for use in Pokémon battle simulations or other applications.
+   - Outputs the final effectiveness value for use in Pokemon battle simulations or other applications.
 
 ## Getting Started
 
